@@ -1,13 +1,13 @@
-## cmake-template
+# cmake-template
 A project template for open source C++ projects built with CMake
-# Project structure
+## Project structure
 The important files are
 * [build.sh](build.sh) - a convenience script for cmake && make calls
 * [CMakeLists.txt](CMakeLists.txt) - top level CMake script which manages all sub projects
 * [app/CMakeLists.txt](app/CMakeLists.txt) - CMake script for an executable
 * [mylib/CMakeLists.txt](mylib/CMakeLists.txt) - CMake script to build libraries and tests with gtest/gmock dependencies
 
-# Building Eclipse project files
+## Building Eclipse project files
 CMake can build your eclipse project files.
 ```
 mkdir build;cd build
