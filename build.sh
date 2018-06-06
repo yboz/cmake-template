@@ -1,4 +1,4 @@
 #!/bin/bash
 
 SOURCE="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-pushd $SOURCE && mkdir build; pushd build && cmake ../ && make;popd;popd
+pushd $SOURCE && mkdir cmake-build-debug; pushd cmake-build-debug && cmake ../ && make;popd;popd

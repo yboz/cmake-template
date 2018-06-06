@@ -1,8 +1,8 @@
-#include "mylib/mylib.hpp"
+#include "hello/say_hello.hpp"
 
 #include <iostream>
 
 int main()
 {
-    std::cout << lib::sayhello() << std::endl;
+    std::cout << lib::say_hello() << std::endl;
 }

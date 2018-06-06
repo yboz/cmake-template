@@ -4,5 +4,5 @@
 
 namespace lib
 {
-    std::string sayhello();
+    std::string say_hello();
 }

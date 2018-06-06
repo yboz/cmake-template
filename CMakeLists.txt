@@ -1,11 +1,12 @@
-# Use a reasonably new CMake version
-cmake_minimum_required(VERSION 3.2 FATAL_ERROR)
-project(cmake-template VERSION 1.0 LANGUAGES CXX)
+cmake_minimum_required(VERSION 3.10)
+project(cmake-template)
 
-# Require GTest on the system as we don't package it
+set(CMAKE_CXX_STANDARD 14)
+
+# Require GTest on the system as it is not packaged
 enable_testing()
 find_package(GTest REQUIRED)
 include_directories(${GTEST_INCLUDE_DIRS})
 
-add_subdirectory(mylib)
+add_subdirectory(hello)
 add_subdirectory(app)

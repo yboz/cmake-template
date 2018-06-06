@@ -1,8 +1,8 @@
-#include "mylib/mylib.hpp"
+#include "hello/say_hello.hpp"
 
 namespace lib
 {
-    std::string sayhello()
+    std::string say_hello()
     {
         return "Hello World!";
     }
