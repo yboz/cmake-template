@@ -17,3 +17,5 @@ add_executable(hello-test
 target_link_libraries(hello-test
     hello
     ${GTEST_BOTH_LIBRARIES})
+
+add_test(test hello-test)
